@@ -70,7 +70,8 @@ export default {
     sockets: [
       {
         name: 'main',
-        url: process.env.BASE_URL + '/' || 'http://127.0.0.1:3333',
+        url:
+          process.env.BASE_URL + '/' || 'http://casino_api.waguramaurice.com',
       },
     ],
   },
@@ -175,7 +176,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.BASE_URL || 'http://127.0.0.1:3333',
+    baseURL: process.env.BASE_URL || 'http://casino_api.waguramaurice.com',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
